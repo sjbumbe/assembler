@@ -1,7 +1,3 @@
-Steven Bumbera
-Project 1
-
-Part 1: The project was successful. All tested inputs returned correct outputs.
 
 Part 2: 
 •	printFormatted(stringstream &ss)
