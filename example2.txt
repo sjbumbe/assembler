@@ -1,0 +1,9 @@
+AND R7, r11, r1
+slt r3, r17, r5
+slli r8, r29, 10
+sgei r14, otherlabel
+labelX:
+lhu r2, -7(r5)
+sh 5(r7), r18
+otherLabel:
+J labelx

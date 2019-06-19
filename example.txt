@@ -1,0 +1,14 @@
+XOR R3, r2, r5
+seq r4, r8, r10
+beqz r4, end
+subi r23, R10, 435
+LabelA:
+addi r31, R12, -35
+LW r8, 12(r4)
+Lb r3, -3(r10)
+jr r4
+J labelA
+sw 0(r5), r12
+end:
+LHI r8, 12000
+JAL labelA
